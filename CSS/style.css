@@ -62,6 +62,10 @@ img {
     margin-top: 3rem;
     display: inline-block;
     text-align: center;
+    border: none;
+}
+.boton:hover {
+    cursor: pointer;
 }
 .boton-amarillo {
     background-color: #E08709;
@@ -294,7 +298,19 @@ img {
 }
 
 /** Contacto**/
+.contacto p {
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
+}
+
+legend {
+    font-size: 2rem;
+    color: #4f4f4f;
+}
 label {
+    font-weight: 700;
+    text-transform: uppercase;
     display: block;
 }
 
@@ -309,11 +325,21 @@ select {
     border: none;
     border-radius: 1rem;
 } 
+input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
 select {
     -webkit-appearance: none;
     appearance: none;
 }
 textarea {
     height: 20rem;
+}
+.forma-contacto {
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
